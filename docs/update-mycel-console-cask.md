@@ -24,4 +24,4 @@
    brew install --cask myceldb/tap/mycel-console
    ```
 
-The initial cask uses `sha256 :no_check` only until the first automated DMG release assets exist. Prefer architecture-specific checksums for normal releases.
+The cask must use the architecture-specific checksums published with each release. Do not use `sha256 :no_check` for normal releases.
