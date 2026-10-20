@@ -10,9 +10,9 @@
 2. Download or read the `.sha256` release assets and update `Casks/mycel-console.rb`:
 
    ```rb
-   version "X.Y.Z"
    arch arm: "aarch64", intel: "x86_64"
 
+   version "X.Y.Z"
    sha256 arm:   "<aarch64-dmg-sha256>",
           intel: "<x86_64-dmg-sha256>"
    ```
